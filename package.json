@@ -1,0 +1,16 @@
+{
+  "name": "deriv-over-under-dual-bot",
+  "version": "3.0.0",
+  "description": "Deriv Over 1 / Under 8 dual trading bot with 6x Martingale — Railway ready",
+  "main": "deriv_dual_bot.js",
+  "scripts": {
+    "start": "node deriv_dual_bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  }
+}
